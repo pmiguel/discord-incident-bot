@@ -8,4 +8,6 @@ const embedColor = (name: EmbedColor): number => {
     } 
 }
 
-export { embedColor }
+const mention = (userId: string): string => `<@!${userId}>`; 
+
+export { embedColor, mention }
